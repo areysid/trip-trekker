@@ -47,7 +47,8 @@ function Header() {
   });
 
   return (
-    <div className='p-3 shadow-sm flex justify-between items-center px-5'>
+    <div >
+    <div className='fixed top-0 left-0 w-full z-50 px-5 py-3 flex justify-between items-center bg-transparent'>
       <img src='/logo.svg' alt='App Logo' />
       <div>
         {user ? (
@@ -105,6 +106,7 @@ function Header() {
           </DialogHeader>
         </DialogContent>
       </Dialog>
+    </div>
     </div>
   );
 }
