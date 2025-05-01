@@ -77,7 +77,7 @@ function Header() {
                   onClick={() => {
                     googleLogout();
                     localStorage.clear();
-                    window.location.href = "http://localhost:5173/";
+                    window.location.href = window.location.origin;
                   }}
                 >
                   Logout
