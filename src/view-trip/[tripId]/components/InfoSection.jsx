@@ -3,11 +3,10 @@ import React, { useEffect, useState } from 'react';
 import { IoIosSend } from 'react-icons/io';
 
 const fallbackImages = [
-  'https://loremflickr.com/800/600/landscape?lock=1',
-  'https://loremflickr.com/800/600/landscape?lock=2',
-  'https://loremflickr.com/800/600/landscape?lock=3',
-  'https://loremflickr.com/800/600/landscape?lock=4',
-  'https://loremflickr.com/800/600/landscape?lock=5',
+  '/fallback/f1.jpg',  // Update with your image names and extensions
+  '/fallback/f2.jpg',
+  '/fallback/f3.jpg',
+  '/fallback/f4.jpg',
 ];
 
 // Utility to pick a random fallback image

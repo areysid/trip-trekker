@@ -4,11 +4,11 @@ import { GetPlaceDetails } from "@/service/GlobalApi";
 
 // Fallback hotel images
 const fallbackHotelImages = [
-  'https://loremflickr.com/600/400/hotel,building?lock=101',
-  'https://loremflickr.com/600/400/resort,room?lock=102',
-  'https://loremflickr.com/600/400/interior,hotel?lock=103',
-  'https://loremflickr.com/600/400/hotel,lobby?lock=104',
-  'https://loremflickr.com/600/400/hotel,night?lock=105',
+  '/hotel/hotel1.avif',  // Update with your image names and extensions
+  '/hotel/hotel2.jpg',
+  '/hotel/hotel3.jpg',
+  '/hotel/hotel4.avif',
+  '/hotel/hotel5.avif',
 ];
 
 // Utility to pick a random fallback image

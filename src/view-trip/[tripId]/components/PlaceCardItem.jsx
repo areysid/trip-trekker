@@ -6,11 +6,12 @@ import { GetPlaceDetails } from "@/service/GlobalApi";
 
 // Fallback images for when API images fail or are missing
 const fallbackPlaceImages = [
-  'https://loremflickr.com/600/400/tourist?lock=11',
-  'https://loremflickr.com/600/400/architecture?lock=22',
-  'https://loremflickr.com/600/400/monument?lock=33',
-  'https://loremflickr.com/600/400/market?lock=44',
-  'https://loremflickr.com/600/400/nature,park?lock=55',
+  '/fallback/f1.jpg',  // Update with your image names and extensions
+  '/fallback/f2.jpg',
+  '/fallback/f3.jpg',
+  '/fallback/f4.jpg',
+  '/fallback/f5.jpg',
+  '/fallback/f6.jpg',
 ];
 
 // Utility to pick a random fallback image
