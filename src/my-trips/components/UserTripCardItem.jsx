@@ -142,7 +142,7 @@ function UserTripCardItem({ trip }) {
       <div className="hover:scale-105 transition-all">
         <img
           src={photoUrl}
-          className="object-cover rounded-xl"
+          className="object-cover rounded-xl h-[160px] w-full"
           alt="Place"
           onLoad={() => setIsLoading(false)}
         />
