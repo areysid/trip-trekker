@@ -6,12 +6,18 @@ import { GetPlaceDetails } from "@/service/GlobalApi";
 
 // Fallback images for when API images fail or are missing
 const fallbackPlaceImages = [
-  '/fallback/f1.jpg',  // Update with your image names and extensions
-  '/fallback/f2.jpg',
-  '/fallback/f3.jpg',
-  '/fallback/f4.jpg',
-  '/fallback/f5.jpg',
-  '/fallback/f6.jpg',
+  '/places/place1.jpeg',  // Update with your image names and extensions
+  '/places/place2.jpeg',
+  '/places/place3.jpeg',
+  '/places/place4.webp',
+  '/places/place5.jpeg',
+  '/places/place6.jpeg',
+  '/places/place7.webp',
+  '/places/place8.jpeg',
+  '/places/place9.jpeg',
+  '/places/place10.jpeg',
+  '/places/place11.jpeg',
+  '/places/place12.jpeg',
 ];
 
 // Utility to pick a random fallback image

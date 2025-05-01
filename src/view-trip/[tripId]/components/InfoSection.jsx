@@ -3,10 +3,16 @@ import React, { useEffect, useState } from 'react';
 import { IoIosSend } from 'react-icons/io';
 
 const fallbackImages = [
-  '/fallback/f1.jpg',  // Update with your image names and extensions
-  '/fallback/f2.jpg',
-  '/fallback/f3.jpg',
-  '/fallback/f4.jpg',
+  '/fallback/f1.jpeg',  // Update with your image names and extensions
+  '/fallback/f2.jpeg',
+  '/fallback/f3.jpeg',
+  '/fallback/f4.jpeg',
+  '/fallback/f5.jpeg',  // Update with your image names and extensions
+  '/fallback/f6.jpeg',
+  '/fallback/f7.jpeg',
+  '/fallback/f8.jpeg',  
+  '/fallback/f9.jpeg',
+  '/fallback/f10.jpeg',   
 ];
 
 // Utility to pick a random fallback image
