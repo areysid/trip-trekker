@@ -231,15 +231,23 @@ function CreateTrip() {
         </div>
       </div>
 
-      <div className="my-10 justify-end flex">
-        <Button disabled={loading} onClick={OnGenerateTrip}>
-          {loading ? (
-            <AiOutlineLoading3Quarters className="h-7 w-7 animate-spin" />
-          ) : (
-            "Generate Trip"
-          )}
-        </Button>
-      </div>
+      <div className="my-10 justify-end flex flex-col items-center">
+  <Button disabled={loading} onClick={OnGenerateTrip} className="flex items-center gap-2">
+    {loading ? (
+      <>
+        <AiOutlineLoading3Quarters className="h-7 w-7 animate-spin" />
+        Generating your perfect itinerary...
+      </>
+    ) : (
+      "Generate Trip"
+    )}
+  </Button>
+  {loading && (
+    <p className="mt-3 text-gray-500 text-sm">
+      Please wait while we craft the perfect trip for you ✨
+    </p>
+  )}
+</div>
 
       <Dialog open={openDialog} onOpenChange={setOpenDialog}>
         <DialogContent>
