@@ -231,7 +231,7 @@ function CreateTrip() {
         </div>
       </div>
 
-      <div className="my-10 flex flex-col items-end">
+      <div className="my-10 justify-end flex flex-col items-center">
   <Button disabled={loading} onClick={OnGenerateTrip} className="flex items-center gap-2">
     {loading ? (
       <>
@@ -243,7 +243,7 @@ function CreateTrip() {
     )}
   </Button>
   {loading && (
-    <p className="mt-2 text-gray-500 text-sm text-right">
+    <p className="mt-3 text-gray-500 text-sm">
       Please wait while we craft the perfect trip for you ✨
     </p>
   )}
